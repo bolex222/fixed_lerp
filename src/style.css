@@ -1,0 +1,54 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #232d3f;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+#white {
+  background-color: #fff;
+}
+
+#red {
+  background-color: #a31621;
+  display: none;
+}
+
+#blue {
+  background-color: #197bbd;
+  display: none;
+}
+
+
+#green {
+  background-color: #26A96C;
+  display: none;
+}
+
+.lerp_progress {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  display: none;
+  width: 500px;
+  text-align: left;
+  font-size: 30px;
+}
